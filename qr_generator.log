@@ -1,0 +1,246 @@
+2026-03-15 08:55:53,621 - __main__ - INFO - Directories initialized
+2026-03-15 08:55:53,641 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 08:55:53,641 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-15 08:56:11,151 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:11] "GET / HTTP/1.1" 200 -
+2026-03-15 08:56:11,271 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 08:56:11,272 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 08:56:55,562 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:55] "GET / HTTP/1.1" 200 -
+2026-03-15 08:56:55,581 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 08:56:55,584 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2026 08:56:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 08:57:57,353 - werkzeug - INFO - 192.168.0.4 - - [15/Mar/2026 08:57:57] "GET / HTTP/1.1" 200 -
+2026-03-15 08:57:57,388 - werkzeug - INFO - 192.168.0.4 - - [15/Mar/2026 08:57:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 08:57:57,388 - werkzeug - INFO - 192.168.0.4 - - [15/Mar/2026 08:57:57] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 08:57:57,453 - werkzeug - INFO - 192.168.0.4 - - [15/Mar/2026 08:57:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 09:03:39 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 09:03:39 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 09:03:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:03:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:03:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:03:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:03:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:03:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:04:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:05] "GET / HTTP/1.1" 200 -
+2026-03-15 09:04:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:04:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:04:09 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:09] "GET / HTTP/1.1" 200 -
+2026-03-15 09:04:09 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:04:09 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:04:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:06:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:57] "GET / HTTP/1.1" 200 -
+2026-03-15 09:06:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:06:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 09:06:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:59] "GET / HTTP/1.1" 200 -
+2026-03-15 09:06:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:06:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:06:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:07:00 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:07:00] "GET / HTTP/1.1" 200 -
+2026-03-15 09:07:00 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:07:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:07:00 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:07:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:05] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:05 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:06 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:06] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:06 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:06 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:56 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:56] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:56 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:56 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:56] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 09:10:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:57] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:57 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:10:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:59] "GET / HTTP/1.1" 200 -
+2026-03-15 09:10:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:10:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:10:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 09:13:49 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 09:13:49 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 09:14:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:08] "GET / HTTP/1.1" 200 -
+2026-03-15 09:14:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:08] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 09:14:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 09:14:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:12] "GET / HTTP/1.1" 200 -
+2026-03-15 09:14:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:12] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 09:14:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 09:14:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 09:17:11 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 09:17:11 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 09:17:30 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:30] "GET / HTTP/1.1" 200 -
+2026-03-15 09:17:30 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 09:17:30 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:30] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 09:17:30 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 09:17:33 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:33] "GET / HTTP/1.1" 200 -
+2026-03-15 09:17:33 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 09:17:33 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 09:17:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:14:29 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 10:14:29 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 10:14:46 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:14:46] "GET / HTTP/1.1" 200 -
+2026-03-15 10:14:46 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:14:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-03-15 10:14:46 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:14:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-15 10:14:46 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:14:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 10:14:59 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:14:59] "[33mPOST /generate HTTP/1.1[0m" 404 -
+2026-03-15 10:15:13 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:15:13] "[33mPOST /generate HTTP/1.1[0m" 404 -
+2026-03-15 10:15:28 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:15:28] "GET / HTTP/1.1" 200 -
+2026-03-15 10:15:28 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:15:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:15:28 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:15:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:15:37 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:15:37] "[33mPOST /generate HTTP/1.1[0m" 404 -
+2026-03-15 10:18:33 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 10:18:33 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 10:18:45 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:18:45] "GET / HTTP/1.1" 200 -
+2026-03-15 10:18:45 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:18:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:18:45 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:18:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:19:01 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2026-03-15 10:19:01 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:19:01] "[31m[1mPOST /api/generate HTTP/1.1[0m" 400 -
+2026-03-15 10:23:54 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 10:23:54 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 10:24:10 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:10] "GET / HTTP/1.1" 200 -
+2026-03-15 10:24:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:24:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:24:12 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 10:24:30 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2026-03-15 10:24:30 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:30] "[31m[1mPOST /api/generate HTTP/1.1[0m" 400 -
+2026-03-15 10:24:52 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:24:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-15 10:25:41 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 10:25:41] "GET / HTTP/1.1" 200 -
+2026-03-15 10:25:41 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 10:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:25:41 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 10:25:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:25:42 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 10:25:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 10:25:53 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2026-03-15 10:25:53 [INFO] werkzeug: 192.168.0.4 - - [15/Mar/2026 10:25:53] "[31m[1mPOST /api/generate HTTP/1.1[0m" 400 -
+2026-03-15 10:29:09 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 10:29:09 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 10:29:21 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:29:21] "GET / HTTP/1.1" 200 -
+2026-03-15 10:29:22 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:29:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 10:29:22 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:29:38 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2026-03-15 10:29:38 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:29:38] "[31m[1mPOST /api/generate HTTP/1.1[0m" 400 -
+2026-03-15 10:36:37 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2026-03-15 10:36:37 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 10:36:53 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:36:53] "GET / HTTP/1.1" 200 -
+2026-03-15 10:36:54 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:36:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:37:07 [INFO] flask-limiter: ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: generate
+2026-03-15 10:37:08 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:08] "[31m[1mPOST /api/generate HTTP/1.1[0m" 429 -
+2026-03-15 10:37:25 [INFO] flask-limiter: ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: generate
+2026-03-15 10:37:25 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:25] "[31m[1mPOST /api/generate HTTP/1.1[0m" 429 -
+2026-03-15 10:37:30 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:30] "GET / HTTP/1.1" 200 -
+2026-03-15 10:37:30 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:37:31 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:31] "GET / HTTP/1.1" 200 -
+2026-03-15 10:37:31 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:37:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:50] "GET / HTTP/1.1" 200 -
+2026-03-15 10:37:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:37:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 10:39:01 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:39:01] "GET / HTTP/1.1" 200 -
+2026-03-15 10:39:02 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 10:39:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 23:33:29 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2026-03-15 23:33:29 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 23:33:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:33:50] "GET / HTTP/1.1" 200 -
+2026-03-15 23:33:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:33:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 23:33:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:33:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 23:33:50 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:33:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 23:35:42 [INFO] flask-limiter: ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: generate
+2026-03-15 23:35:42 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:35:42] "[31m[1mPOST /api/generate HTTP/1.1[0m" 429 -
+2026-03-15 23:40:41 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.5:5000
+2026-03-15 23:40:41 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-03-15 23:40:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:40:58] "GET / HTTP/1.1" 200 -
+2026-03-15 23:40:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:40:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-03-15 23:40:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:40:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-15 23:40:58 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:40:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 23:41:07 [ERROR] app: Exception on /api/generate [POST]
+Traceback (most recent call last):
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\akash\OneDrive\Desktop\qr_file_generator\app.py", line 186, in generate
+    if limiter:
+       ^^^^^^^
+NameError: name 'limiter' is not defined. Did you mean: 'Limiter'?
+2026-03-15 23:41:07 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:41:07] "[35m[1mPOST /api/generate HTTP/1.1[0m" 500 -
+2026-03-15 23:42:38 [ERROR] app: Exception on /api/generate [POST]
+Traceback (most recent call last):
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\akash\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\akash\OneDrive\Desktop\qr_file_generator\app.py", line 186, in generate
+    if limiter:
+       ^^^^^^^
+NameError: name 'limiter' is not defined. Did you mean: 'Limiter'?
+2026-03-15 23:42:38 [INFO] werkzeug: 127.0.0.1 - - [15/Mar/2026 23:42:38] "[35m[1mPOST /api/generate HTTP/1.1[0m" 500 -

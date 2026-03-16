@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>QR Code Generator</title>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>">
+
+<!-- CONNECT EXTERNAL CSS -->
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+<h1>QR Generator</h1>
+<p class="subtitle">Generate QR codes for links or files instantly</p>
+
+<form action="/api/generate" method="POST" enctype="multipart/form-data" id="qrForm">
+
+<!-- LINK INPUT -->
+
+<div class="input-box">
+
+<label>Paste Link</label>
+
+<input
+type="url"
+name="link"
+id="urlInput"
+placeholder="https://example.com"
+
+>
+
+</div>
+
+<div class="divider">
+<span>OR</span>
+</div>
+
+<!-- FILE UPLOAD -->
+
+<div class="drop-zone" id="fileBox">
+
+<span class="icon">📎</span>
+
+<p class="file-label">Upload a file</p>
+
+<p class="small">PDF, images, docs (max 10MB)</p>
+
+<input type="file"
+name="file"
+id="fileInput"
+accept=".pdf,.jpg,.jpeg,.png,.gif,.doc,.docx,.txt"
+
+>
+
+</div>
+
+<button type="submit" class="generate-btn" id="submitBtn">
+Generate QR Code
+</button>
+
+<div class="loading" id="loading">
+
+<div class="spinner"></div>
+
+<p class="loading-text">Creating your QR code...</p>
+
+</div>
+
+</form>
+
+</div>
+
+<script>
+
+const form = document.getElementById("qrForm");
+const fileBox = document.getElementById("fileBox");
+const fileInput = document.getElementById("fileInput");
+const urlInput = document.getElementById("urlInput");
+const submitBtn = document.getElementById("submitBtn");
+const loading = document.getElementById("loading");
+
+
+/* DRAG & DROP */
+
+fileBox.addEventListener("dragover", (e) => {
+e.preventDefault();
+fileBox.classList.add("dragover");
+});
+
+fileBox.addEventListener("dragleave", () => {
+fileBox.classList.remove("dragover");
+});
+
+fileBox.addEventListener("drop", (e) => {
+
+e.preventDefault();
+
+fileBox.classList.remove("dragover");
+
+fileInput.files = e.dataTransfer.files;
+
+updateFilePreview();
+
+});
+
+
+fileBox.addEventListener("click", () => fileInput.click());
+
+fileInput.addEventListener("change", updateFilePreview);
+
+
+function updateFilePreview(){
+
+if(fileInput.files.length > 0){
+
+const file = fileInput.files[0];
+
+const label = fileBox.querySelector(".file-label");
+
+label.textContent = "Selected: " + file.name;
+
+label.style.color = "#10b981";
+
+}
+
+}
+
+
+/* PREVENT BOTH INPUTS */
+
+urlInput.addEventListener("input", () => {
+
+if(urlInput.value.length > 0){
+
+fileInput.disabled = true;
+
+}else{
+
+fileInput.disabled = false;
+
+}
+
+});
+
+
+fileInput.addEventListener("change", () => {
+
+if(fileInput.files.length > 0){
+
+urlInput.disabled = true;
+
+}else{
+
+urlInput.disabled = false;
+
+}
+
+});
+
+
+/* LOADING STATE */
+
+form.addEventListener("submit", () => {
+
+submitBtn.style.display = "none";
+
+loading.classList.add("show");
+
+});
+
+
+/* AUTO ADD HTTPS */
+
+urlInput.addEventListener("blur", (e) => {
+
+const value = e.target.value;
+
+if(value && !value.startsWith("http")){
+
+e.target.value = "https://" + value;
+
+}
+
+});
+
+
+/* FILE SIZE CHECK */
+
+fileInput.addEventListener("change", (e) => {
+
+const file = e.target.files[0];
+
+if(file && file.size > 10 * 1024 * 1024){
+
+alert("File must be under 10MB");
+
+fileInput.value = "";
+
+}
+
+});
+
+
+/* SHORTCUT CTRL+ENTER */
+
+document.addEventListener("keydown", (e) => {
+
+if((e.ctrlKey || e.metaKey) && e.key === "Enter"){
+
+form.submit();
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
